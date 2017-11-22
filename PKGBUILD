@@ -49,6 +49,7 @@ build() {
 	echo "Please install to default directory and close application quickly after installed."
 	wine LTspiceXVII.exe || :
 	sleep 10
+	ln -snf "${srcdir}/wine/drive_c/Program Files/LTC/LTspiceXVII" "${srcdir}/ltspice"
 	echo "Removing files..."
 	grep "${srcdir}/wine" -rl "/home/"`whoami`"/.local/share/applications/" | cat
 	grep "${srcdir}/wine" -rl "/home/"`whoami`"/.local/share/applications/" | xargs -I{} rm "{}"
