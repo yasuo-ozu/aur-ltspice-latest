@@ -2,7 +2,22 @@
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
     <mime-type type="application/x-ltspice-asc">
         <sub-class-of type="application/octet-stream"/>
-        <comment xml:lang="en">LTSpice asc file</comment>
+        <comment xml:lang="en">LTSpice Schematic file</comment>
         <glob pattern="*.asc"/>
+    </mime-type>
+    <mime-type type="application/x-ltspice-asy">
+        <sub-class-of type="application/octet-stream"/>
+        <comment xml:lang="en">LTSpice Symbol file</comment>
+        <glob pattern="*.asy"/>
+    </mime-type>
+    <mime-type type="application/x-ltspice-cir">
+        <sub-class-of type="application/octet-stream"/>
+        <comment xml:lang="en">LTSpice Netlist file</comment>
+        <glob pattern="*.cir"/>
+    </mime-type>
+    <mime-type type="application/x-ltspice-raw">
+        <sub-class-of type="application/octet-stream"/>
+        <comment xml:lang="en">LTSpice Raw file</comment>
+        <glob pattern="*.raw"/>
     </mime-type>
 </mime-info>

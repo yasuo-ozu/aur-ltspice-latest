@@ -19,8 +19,8 @@ backup=()
 options=()
 install=
 changelog=
-source=("http://ltspice.linear-tech.com/software/LTspiceXVII.exe" "ltspice.sh" "$pkgname.xml")
-md5sums=('SKIP' 'SKIP' 'SKIP')
+source=("http://ltspice.linear-tech.com/software/LTspiceXVII.exe" "ltspice.sh" "$pkgname.xml" "system.reg")
+md5sums=('SKIP' 'SKIP' 'SKIP' 'SKIP')
 
 prepare() {
 	wget -O "${pkgname}.jpg" "https://pbs.twimg.com/profile_images/839168408490913792/ukNPeWwa_200x200.jpg" 
@@ -65,6 +65,7 @@ package() {
 	chmod 0755 -R "${pkgdir}/usr/share/licenses/ltspice"
 
 	install -D -m755 "${srcdir}/ltspice.sh" "${pkgdir}/usr/bin/ltspice"
+	install -Dm644 "system.reg" "$pkgdir/usr/share/ltspice/system.reg"
 
 	# Install desktop entry
 	install -Dm644 "$pkgname.desktop" "$pkgdir/usr/share/applications/$pkgname.desktop"

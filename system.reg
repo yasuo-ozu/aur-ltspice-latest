@@ -1,0 +1,40 @@
+[Software\\Classes\\.asc] 1511363908
+@="LTspice.Schematic"
+[Software\\Classes\\.asy] 1511363908
+@="LTspice.Symbol"
+[Software\\Classes\\.cir] 1511363908
+@="LTspice.Netlist"
+[Software\\Classes\\.raw] 1511363908
+@="LTspice.Rawfile"
+[Software\\Classes\\LTspice.Netlist] 1511363908
+@="LTspice Netlist"
+[Software\\Classes\\LTspice.Netlist\\DefaultIcon] 1511363908
+@="C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe,2"
+[Software\\Classes\\LTspice.Netlist\\shell\\open\\command] 1511363908
+@="\"C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe\" \"%1\""
+[Software\\Classes\\LTspice.Netlist\\shell\\open\\ddeexec] 1511363908
+@="[open(\"%1\")]"
+[Software\\Classes\\LTspice.Rawfile] 1511363908
+@="LTspice Rawfile"
+[Software\\Classes\\LTspice.Rawfile\\DefaultIcon] 1511363908
+@="C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe,3"
+[Software\\Classes\\LTspice.Rawfile\\shell\\open\\command] 1511363908
+@="\"C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe\" \"%1\""
+[Software\\Classes\\LTspice.Rawfile\\shell\\open\\ddeexec] 1511363908
+@="[open(\"%1\")]"
+[Software\\Classes\\LTspice.Schematic] 1511363908
+@="LTspice Schematic"
+[Software\\Classes\\LTspice.Schematic\\DefaultIcon] 1511363908
+@="C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe,1"
+[Software\\Classes\\LTspice.Schematic\\shell\\open\\command] 1511363908
+@="\"C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe\" \"%1\""
+[Software\\Classes\\LTspice.Schematic\\shell\\open\\ddeexec] 1511363908
+@="[open(\"%1\")]"
+[Software\\Classes\\LTspice.Symbol] 1511363908
+@="LTspice Symbol"
+[Software\\Classes\\LTspice.Symbol\\DefaultIcon] 1511363908
+@="C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe,11"
+[Software\\Classes\\LTspice.Symbol\\shell\\open\\command] 1511363908
+@="\"C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe\" \"%1\""
+[Software\\Classes\\LTspice.Symbol\\shell\\open\\ddeexec] 1511363908
+@="[open(\"%1\")]"
